@@ -9,7 +9,7 @@ use Inertia\Inertia;
 
 Route::get('/', [FrontendController::class, 'index'])->name('myhome');
 Route::get('/about', [FrontendController::class, 'about'])->name('about');
-Route::inertia('/contact', 'Frontend/Contact')->name('contact');
+Route::inertia('/contact', 'Frontend/Contact')->name('contacts');
 
 route::resource('/products',ProductController::class);
 

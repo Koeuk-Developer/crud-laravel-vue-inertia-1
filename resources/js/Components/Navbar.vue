@@ -21,7 +21,7 @@
                               </Link>
                          </li>
                          <li class="nav-item">
-                              <Link class="nav-link active text-danger" aria-current="page" :href="route('contact')">
+                              <Link class="nav-link active text-danger" aria-current="page" :href="route('contacts')">
                               Contact </Link>
                          </li>
                     </ul>

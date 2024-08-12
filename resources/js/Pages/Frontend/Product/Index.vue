@@ -53,7 +53,7 @@ import FrontendLayout from '@/Layouts/FrontendLayout.vue';
 import { Head } from '@inertiajs/vue3';
 import { Link, useForm } from '@inertiajs/vue3';
 
-defineProps({
+const props = defineProps({
      products: Array,
 });
 
